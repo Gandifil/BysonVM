@@ -1,0 +1,2 @@
+add_executable(interpretator main.cpp)
+target_link_libraries(interpretator common)

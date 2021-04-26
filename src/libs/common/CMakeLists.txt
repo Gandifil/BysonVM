@@ -1,0 +1,2 @@
+add_library(common execution/Command.cpp execution/Command.hpp State.hpp Machine.cpp parsing/ICommandParser.hpp parsing/StringCommandParser.hpp parsing/CommandParserLogger.hpp Machine.hpp execution/CommandTypes.cpp execution/CommandTypes.hpp)
+target_include_directories(common PUBLIC .)
